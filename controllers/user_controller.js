@@ -166,21 +166,35 @@ export const profile = async (req, res) => {
     }
 };
 
+export const isStudent = async (id) => {
+    const student = await models.Student.findOne({ where: { id: id } });
+    if (student) {
+        return true;
+    }
+    return false;
+} 
+
+export const isStaff = async (id) => {
+    const staff = await models.Staff.findOne({ where: { id: id } });
+    if (staff) {
+        return true;
+    }
+    return false;
+}
+
 // Get the user's role (student or staff) based on the table they belong to
 export const getUserRole = async (req, res) => {
     const { userId } = req.user;
 
     try {
-        // Check if the user exists in the students table
-        const student = await models.Student.findOne({ where: { id: userId } });
-        if (student) {
-            return res.status(200).json({ role: 'student' });
+        // Check if the user is a student
+        if (await isStudent(userId)) {
+            res.status(200).json({ role: 'student' });
         }
 
-        // If not found in students, check if the user exists in the staff table
-        const staff = await models.Staff.findOne({ where: { id: userId } });
-        if (staff) {
-            return res.status(200).json({ role: 'staff' });
+        // If not student, check if the user is a staff
+        if (await isStaff(userId)) {
+            res.status(200).json({ role: 'staff' });
         }
 
         // If user is not found in either table, return a message indicating no role

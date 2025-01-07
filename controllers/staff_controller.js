@@ -1,7 +1,9 @@
 import models from '../models/index.js';
 
 export const registerStaff = async (req, res) => {
-    const { id, role, course } = req.body;
+    const { userId } = req.user;
+    const { role, course } = req.body;
+    const id  = userId;
 
     try {
         // Validate the input
@@ -50,7 +52,8 @@ export const getAllStaff = async (req, res) => {
 };
 
 export const getStaffById = async (req, res) => {
-    const { id } = req.params;
+    const { userId } = req.user;
+    const id = userId;
 
     try {
         const staff = await models.Staff.findByPk(id, {
@@ -75,7 +78,8 @@ export const getStaffById = async (req, res) => {
 };
 
 export const updateStaff = async (req, res) => {
-    const { id } = req.params;
+    const { userId } = req.user;
+    const id = userId;
     const { role, course } = req.body;
 
     try {
@@ -100,7 +104,8 @@ export const updateStaff = async (req, res) => {
 };
 
 export const deleteStaff = async (req, res) => {
-    const { id } = req.params;
+    const { userId } = req.user;
+    const id = userId;
 
     try {
         const deleted = await models.Staff.destroy({ where: { id } });
@@ -115,11 +120,12 @@ export const deleteStaff = async (req, res) => {
 };
 
 export const getStaffResponses = async (req, res) => {
-    const { id } = req.params;
+    const { userId } = req.user;
+    const id = userId;
 
     try {
         const responses = await models.Response.findAll({
-            where: { staff: id },
+            where: { staffId: id },
         });
 
         if (!responses || responses.length === 0)

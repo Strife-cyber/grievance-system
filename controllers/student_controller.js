@@ -1,7 +1,9 @@
 import models from '../models/index.js';
 
 export const registerStudent = async (req, res) => {
-    const { id, course } = req.body;
+    const { userId } = req.user;
+    const { course } = req.body;
+    const id = userId;
 
     try {
         // Validate the input
@@ -50,7 +52,8 @@ export const getAllStudents = async (req, res) => {
 };
 
 export const getStudentById = async (req, res) => {
-    const { id } = req.params;
+    const { userId } = req.user;
+    const id = userId;
 
     try {
         const student = await models.Student.findByPk(id, {
@@ -78,7 +81,8 @@ export const getStudentById = async (req, res) => {
 };
 
 export const updateStudent = async (req, res) => {
-    const { id } = req.params;
+    const { userId } = req.user;
+    const id = userId;
     const { course } = req.body;
 
     try {
@@ -102,7 +106,8 @@ export const updateStudent = async (req, res) => {
 };
 
 export const deleteStudent = async (req, res) => {
-    const { id } = req.params;
+    const { userId } = req.user;
+    const id = userId;
 
     try {
         const deleted = await models.Student.destroy({ where: { id } });
@@ -117,11 +122,12 @@ export const deleteStudent = async (req, res) => {
 };
 
 export const getStudentAppeals = async (req, res) => {
-    const { id } = req.params;
+    const { userId } = req.user;
+    const id = userId;
 
     try {
         const appeals = await models.Appeal.findAll({
-            where: { student: id },
+            where: { studentId: id },
         });
 
         if (!appeals || appeals.length === 0)
@@ -135,11 +141,12 @@ export const getStudentAppeals = async (req, res) => {
 };
 
 export const getStudentGrievances = async (req, res) => {
-    const { id } = req.params;
+    const { userId } = req.user;
+    const id = userId;
 
     try {
         const grievances = await models.Grievance.findAll({
-            where: { student: id },
+            where: { studentId: id },
         });
 
         if (!grievances || grievances.length === 0)

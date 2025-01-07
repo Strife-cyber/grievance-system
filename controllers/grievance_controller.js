@@ -3,14 +3,16 @@ import models from '../models/index.js';
 
 // Create a new grievance
 export const createGrievance = async (req, res) => {
-    const { student, description } = req.body;
+    const { userId } = req.user;
+    const { description } = req.body;
+    const student = userId;
 
     try {
         const ai = new Ai();
         const prediction = ai.handleTextInput(description);
 
         const grievance = await models.Grievance.create({
-            student: student,
+            studentId: student,
             roles: prediction.roles,
             description: description,
             priority: prediction.priority,
@@ -73,8 +75,19 @@ export const updateGrievance = async (req, res) => {
         const grievance = await models.Grievance.findByPk(id);
 
         if (!grievance) return res.status(404).json({ message: 'Grievance not found.' });
-
-        await grievance.update({ description, status });
+        if (description !=  null) {
+            const ai = new Ai();
+            const prediction = ai.handleTextInput(description);
+            await grievance.update({ 
+                roles: prediction.roles,
+                description: description,
+                priority: prediction.priority,
+                category: prediction.category, 
+                status
+            });
+        } else {
+            await grievance.update({ status });
+        }
 
         res.json(grievance);
     } catch (error) {
@@ -113,7 +126,7 @@ export const getAppealsForGrievance = async (req, res) => {
 
     try {
         const appeals = await models.Appeal.findAll({
-            where: { grievance: grievanceId },
+            where: { grievanceId },
         });
 
         res.json(appeals);
@@ -132,7 +145,7 @@ export const getResponsesForGrievance = async (req, res) => {
 
     try {
         const responses = await models.Response.findAll({
-            where: { grievance: grievanceId },
+            where: { grievanceId },
         });
 
         res.json(responses);

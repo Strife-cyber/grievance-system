@@ -1,7 +1,9 @@
 import models from '../models/index.js';
 
 export const createAppeal = async (req, res) => {
-    const { student, grievance, reason } = req.body;
+    const { userId } = req.user;
+    const { grievance, reason } = req.body;
+    const student = userId;
 
     try {
         // Validate input
@@ -21,7 +23,7 @@ export const createAppeal = async (req, res) => {
         }
 
         // Create the appeal
-        const appeal = await models.Appeal.create({ student, grievance, reason });
+        const appeal = await models.Appeal.create({ studentId: student, grievanceId: grievance, reason });
 
         res.status(201).json({
             message: 'Appeal created successfully.',

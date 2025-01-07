@@ -1,7 +1,9 @@
 import models from '../models/index.js';
 
 export const createResponse = async (req, res) => {
-    const { grievance, staff, message } = req.body;
+    const { userId } = req.user;
+    const { grievance, message } = req.body;
+    const staff = userId;
 
     try {
         // Validate input
@@ -21,7 +23,7 @@ export const createResponse = async (req, res) => {
         }
 
         // Create the response
-        const response = await models.Response.create({ grievance, staff, message });
+        const response = await models.Response.create({ grievanceId: grievance, staffId: staff, message });
 
         res.status(201).json({
             message: 'Response created successfully.',
@@ -125,7 +127,7 @@ export const getResponsesForGrievance = async (req, res) => {
 
     try {
         const responses = await models.Response.findAll({
-            where: { grievance: grievanceId },
+            where: { grievanceId },
             include: [
                 {
                     model: models.Staff,

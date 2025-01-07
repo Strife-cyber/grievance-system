@@ -1681,5 +1681,152 @@
       "Professor",
       "Teaching Assistant"
     ]
+  },
+  {
+    "text": "I have been facing significant issues with the network connectivity in the dormitory for over a month now. The internet frequently disconnects during critical study hours, making it impossible to attend online lectures or complete assignments on time. Despite multiple complaints to the administration, no action has been taken to resolve the problem, which is causing immense frustration and impacting academic performance.",
+    "category": "Infrastructure",
+    "priority": "High",
+    "roles": [
+      "Administrator",
+      "IT Support",
+      "Technician"
+    ]
+  },
+  {
+    "text": "The network is disturbing and connectivity is slow",
+    "category": "Infrastructure",
+    "priority": "High",
+    "roles": [
+      "Administrator",
+      "IT Support",
+      "Technician"
+    ]
+  },
+  {
+    "text": "I have been facing significant issues with the network connectivity in the dormitory for over a month now. The internet frequently disconnects during critical study hours, making it impossible to attend online lectures or complete assignments on time. Despite multiple complaints to the administration, no action has been taken to resolve the problem, which is causing immense frustration and impacting academic performance.",
+    "category": "Infrastructure",
+    "priority": "High",
+    "roles": [
+      "Administrator",
+      "IT Support",
+      "Technician"
+    ]
+  },
+  {
+    "text": "I have been facing significant issues with the network connectivity in the dormitory for over a month now. The internet frequently disconnects during critical study hours, making it impossible to attend online lectures or complete assignments on time. Despite multiple complaints to the administration, no action has been taken to resolve the problem, which is causing immense frustration and impacting academic performance.",
+    "category": "Infrastructure",
+    "priority": "High",
+    "roles": [
+      "Administrator",
+      "IT Support",
+      "Technician"
+    ]
+  },
+  {
+    "text": "I have been experiencing repeated delays in receiving my exam results, which has caused confusion and anxiety about my academic standing. Despite following up multiple times with the concerned department, there has been no clear communication or resolution. This lack of transparency and accountability is affecting my ability to plan for internships and future coursework.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Counselor",
+      "Dean",
+      "Professor"
+    ]
+  },
+  {
+    "text": "The cafeteria food quality has been consistently poor, with undercooked meals and limited healthy options available. Several students, including myself, have reported feeling unwell after eating there, but no improvements have been made despite repeated complaints. This issue is impacting both our health and overall campus experience.",
+    "category": "Facilities",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Counselor",
+      "Event Coordinator",
+      "Nurse"
+    ]
+  },
+  {
+    "text": "The library's air conditioning system has been malfunctioning for weeks, making it nearly impossible to study comfortably during peak hours. Despite multiple requests for repairs, no action has been taken, leaving students frustrated and struggling to focus in the sweltering environment.",
+    "category": "Infrastructure",
+    "priority": "High",
+    "roles": [
+      "Counselor",
+      "Dean",
+      "Professor",
+      "Technician"
+    ]
+  },
+  {
+    "text": "The university cafeteria has been serving undercooked food on multiple occasions, raising serious health concerns among students. Several individuals have reported stomach-related illnesses after consuming meals, yet no corrective measures have been visibly implemented to address the issue.",
+    "category": "Facilities",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Counselor",
+      "Event Coordinator",
+      "Nurse"
+    ]
+  },
+  {
+    "text": "The lack of clean drinking water on campus is becoming a serious health hazard, with students often forced to rely on questionable sources. Many have reported experiencing gastrointestinal issues, and repeated requests for improved water facilities have gone unanswered by the administration.",
+    "category": "Facilities",
+    "priority": "High",
+    "roles": [
+      "Counselor",
+      "Dean",
+      "Professor"
+    ]
+  },
+  {
+    "text": "Not enough assignments.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Teaching Assistant",
+      "Professor",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "Several students in the dormitory are experiencing persistent symptoms of high fever, headaches, and body aches, raising concerns about a possible viral outbreak. Immediate medical attention from the campus nurse is urgently needed to assess and contain the situation before it escalates further.",
+    "category": "Medical",
+    "priority": "High",
+    "roles": [
+      "Administrator",
+      "Counselor",
+      "Event Coordinator",
+      "Nurse"
+    ]
+  },
+  {
+    "text": "A student in the cafeteria fainted suddenly and appears to be showing signs of severe dehydration and fatigue. Immediate intervention from the nurse is required to provide first aid and determine the cause of the incident.",
+    "category": "Medical",
+    "priority": "High",
+    "roles": [
+      "Administrator",
+      "Counselor",
+      "Event Coordinator",
+      "Nurse"
+    ]
+  },
+  {
+    "text": "A student is experiencing persistent chest pain and shortness of breath during a class activity. This situation requires urgent attention from the nurse to assess the condition and provide appropriate care.",
+    "category": "Medical",
+    "priority": "High",
+    "roles": [
+      "Counselor",
+      "Dean",
+      "Professor",
+      "Nurse"
+    ]
+  },
+  {
+    "text": "A student has reported feeling dizzy and faint, with a noticeable drop in energy levels and clammy skin. Immediate attention from the nurse is needed to determine the cause and provide medical assistance.",
+    "category": "Medical",
+    "priority": "High",
+    "roles": [
+      "Counselor",
+      "Dean",
+      "Professor",
+      "Nurse"
+    ]
   }
 ]
