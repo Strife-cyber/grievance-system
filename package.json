@@ -1,0 +1,21 @@
+{
+  "name": "sgs-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "faker": "^6.6.6",
+    "fs": "^0.0.1-security",
+    "natural": "^8.0.1",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  }
+}

@@ -1,0 +1,1685 @@
+[
+  {
+    "text": "The professor didn't show up for our class today.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant",
+      "Administrator",
+      "Dean"
+    ]
+  },
+  {
+    "text": "The internet connection in the library is very slow.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "IT Support",
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I have not received my exam results yet.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The cafeteria food quality has been poor recently.",
+    "category": "Facilities",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Counselor",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "There is a problem with the air conditioning in the dorms.",
+    "category": "Infrastructure",
+    "priority": "Low",
+    "roles": [
+      "Technician",
+      "Administrator",
+      "Cleaner"
+    ]
+  },
+  {
+    "text": "My professor didn't grade my assignment properly.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The bathroom facilities are not being cleaned regularly.",
+    "category": "Facilities",
+    "priority": "Low",
+    "roles": [
+      "Cleaner",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The bus schedule is unreliable, and I missed my class.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "I was harassed by another student during a group project.",
+    "category": "Behavioral",
+    "priority": "High",
+    "roles": [
+      "Counselor",
+      "Administrator",
+      "Professor"
+    ]
+  },
+  {
+    "text": "My dorm room doesn't have proper lighting.",
+    "category": "Infrastructure",
+    "priority": "Low",
+    "roles": [
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I am being unfairly graded on my project.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The parking lot is too far from the campus building.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "There is no hot water in the showers.",
+    "category": "Infrastructure",
+    "priority": "Low",
+    "roles": [
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The classroom seats are uncomfortable and need replacement.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "The university website keeps crashing when I try to register for courses.",
+    "category": "Technical",
+    "priority": "High",
+    "roles": [
+      "IT Support",
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "My assigned TA is not answering emails or questions.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Teaching Assistant",
+      "Professor",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I feel unsafe walking alone on campus at night.",
+    "category": "Behavioral",
+    "priority": "High",
+    "roles": [
+      "Security Officer",
+      "Administrator",
+      "Counselor"
+    ]
+  },
+  {
+    "text": "The Wi-Fi in the lecture halls is intermittent and unreliable.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "IT Support",
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "There is not enough space in the library to study during exams.",
+    "category": "Facilities",
+    "priority": "Medium",
+    "roles": [
+      "Librarian",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "My course syllabus was not available before the start of classes.",
+    "category": "Academic",
+    "priority": "Low",
+    "roles": [
+      "Professor",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The classroom is too noisy, making it hard to concentrate.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "The temperature in the classrooms is always too hot or too cold.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "My financial aid application hasn't been processed yet.",
+    "category": "Administrative",
+    "priority": "High",
+    "roles": [
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I was charged incorrectly for my dormitory fees.",
+    "category": "Administrative",
+    "priority": "High",
+    "roles": [
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The computer lab doesn't have enough working computers for students.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "IT Support",
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I was not informed about the changes to the exam schedule.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Administrator",
+      "Professor"
+    ]
+  },
+  {
+    "text": "My advisor is not responding to my emails about course selection.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Advisor",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The lights in the library are too dim to read properly.",
+    "category": "Infrastructure",
+    "priority": "Low",
+    "roles": [
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "There is a lack of recycling bins on campus.",
+    "category": "Facilities",
+    "priority": "Low",
+    "roles": [
+      "Administrator",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "The elevators in the building are always out of service.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I have been falsely accused of cheating in my exam.",
+    "category": "Behavioral",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Administrator",
+      "Counselor"
+    ]
+  },
+  {
+    "text": "I had trouble accessing my course materials on the online portal.",
+    "category": "Technical",
+    "priority": "Medium",
+    "roles": [
+      "IT Support",
+      "Technician"
+    ]
+  },
+  {
+    "text": "The campus security guards are not responsive to emergency calls.",
+    "category": "Behavioral",
+    "priority": "High",
+    "roles": [
+      "Security Officer",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "There are no healthy food options in the campus cafeteria.",
+    "category": "Facilities",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "I was not informed about the university's policy changes regarding scholarships.",
+    "category": "Administrative",
+    "priority": "Low",
+    "roles": [
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The temperature in the dorms is too high and uncomfortable.",
+    "category": "Infrastructure",
+    "priority": "Low",
+    "roles": [
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "There are not enough group study rooms available in the library.",
+    "category": "Facilities",
+    "priority": "Medium",
+    "roles": [
+      "Librarian",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I had difficulty with the online exam system during my test.",
+    "category": "Technical",
+    "priority": "High",
+    "roles": [
+      "IT Support",
+      "Technician"
+    ]
+  },
+  {
+    "text": "My classroom is overcrowded, and there are not enough seats.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "The lab equipment is outdated and not functioning properly.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Lab Assistant",
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I have received an unfair warning for being late to class.",
+    "category": "Behavioral",
+    "priority": "Low",
+    "roles": [
+      "Professor",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "There is no proper support for students with disabilities.",
+    "category": "Facilities",
+    "priority": "High",
+    "roles": [
+      "Counselor",
+      "Administrator",
+      "Librarian"
+    ]
+  },
+  {
+    "text": "The classrooms are not adequately ventilated, making it hard to focus.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I feel discriminated against in my class because of my race.",
+    "category": "Behavioral",
+    "priority": "High",
+    "roles": [
+      "Counselor",
+      "Administrator",
+      "Professor"
+    ]
+  },
+  {
+    "text": "The school's transportation system needs improvement for accessibility.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "The bus service is late every morning, and I miss my first class.",
+    "category": "Infrastructure",
+    "priority": "High",
+    "roles": [
+      "Administrator",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "The computer lab is too noisy for studying.",
+    "category": "Infrastructure",
+    "priority": "Low",
+    "roles": [
+      "Librarian",
+      "Technician"
+    ]
+  },
+  {
+    "text": "The staff in the library are not helpful when I need assistance.",
+    "category": "Behavioral",
+    "priority": "Low",
+    "roles": [
+      "Librarian"
+    ]
+  },
+  {
+    "text": "The university's email system is often down, and I cannot receive important notifications.",
+    "category": "Technical",
+    "priority": "High",
+    "roles": [
+      "IT Support",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The heating system in the dorms is broken, and it's freezing inside.",
+    "category": "Infrastructure",
+    "priority": "High",
+    "roles": [
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The elevators in the dormitory building are often out of service.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "There is not enough diversity in the curriculum for my course.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Dean"
+    ]
+  },
+  {
+    "text": "I was not able to register for the courses I wanted due to system errors.",
+    "category": "Technical",
+    "priority": "High",
+    "roles": [
+      "IT Support",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The online exam system crashed in the middle of my test.",
+    "category": "Technical",
+    "priority": "High",
+    "roles": [
+      "IT Support",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "My professor is not providing enough support for my thesis work.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor"
+    ]
+  },
+  {
+    "text": "There is no proper guidance for student projects and research work.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Dean"
+    ]
+  },
+  {
+    "text": "The parking fees on campus are too high and unreasonable.",
+    "category": "Administrative",
+    "priority": "Low",
+    "roles": [
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The library is always closed during weekends, making it difficult to study.",
+    "category": "Facilities",
+    "priority": "Medium",
+    "roles": [
+      "Librarian",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The university does not provide enough scholarships for international students.",
+    "category": "Administrative",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Dean"
+    ]
+  },
+  {
+    "text": "There are not enough vending machines on campus.",
+    "category": "Facilities",
+    "priority": "Low",
+    "roles": [
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The university doesn't provide sufficient support for student clubs.",
+    "category": "Administrative",
+    "priority": "Medium",
+    "roles": [
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The dormitory has mold in the walls, and it's affecting my health.",
+    "category": "Infrastructure",
+    "priority": "High",
+    "roles": [
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I received incorrect information about the graduation requirements.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The campus security guard was rude when I asked for assistance.",
+    "category": "Behavioral",
+    "priority": "Low",
+    "roles": [
+      "Security Officer"
+    ]
+  },
+  {
+    "text": "The elevator in my building is out of order, and I live on the fifth floor.",
+    "category": "Infrastructure",
+    "priority": "High",
+    "roles": [
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "There is not enough space for group discussions in the library.",
+    "category": "Facilities",
+    "priority": "Medium",
+    "roles": [
+      "Librarian",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I couldn't access the online library resources from home.",
+    "category": "Technical",
+    "priority": "Medium",
+    "roles": [
+      "IT Support"
+    ]
+  },
+  {
+    "text": "I was denied access to the university's research journals without explanation.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Librarian",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The computer lab is too crowded, and there are not enough seats.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Librarian",
+      "Technician"
+    ]
+  },
+  {
+    "text": "I am having difficulty with the online payment portal for tuition fees.",
+    "category": "Technical",
+    "priority": "High",
+    "roles": [
+      "IT Support",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The dormitory has a bad odor and needs to be cleaned.",
+    "category": "Facilities",
+    "priority": "Medium",
+    "roles": [
+      "Cleaner",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I was given incorrect advice regarding my course selection.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The campus is not accessible for students with mobility challenges.",
+    "category": "Infrastructure",
+    "priority": "High",
+    "roles": [
+      "Administrator",
+      "Technician"
+    ]
+  },
+  {
+    "text": "There are not enough international student resources available on campus.",
+    "category": "Administrative",
+    "priority": "Low",
+    "roles": [
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I did not receive my certificate on time after completing my course.",
+    "category": "Administrative",
+    "priority": "Medium",
+    "roles": [
+      "Administrator"
+    ]
+  },
+  {
+    "text": "There is a lack of quiet study areas in the library.",
+    "category": "Facilities",
+    "priority": "Medium",
+    "roles": [
+      "Librarian",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I missed a course deadline due to confusion regarding the assignment submission.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The university's online system for booking exam rooms is difficult to use.",
+    "category": "Technical",
+    "priority": "Low",
+    "roles": [
+      "IT Support"
+    ]
+  },
+  {
+    "text": "The lecture rooms are not properly cleaned and are overcrowded.",
+    "category": "Facilities",
+    "priority": "High",
+    "roles": [
+      "Cleaner",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The air conditioning in the classrooms is broken, and the temperature is unbearable during exams.",
+    "category": "Technical",
+    "priority": "High",
+    "roles": [
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The student lounge is too noisy for studying.",
+    "category": "Facilities",
+    "priority": "Medium",
+    "roles": [
+      "Librarian",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "My exam location was changed without prior notice.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The coffee machine in the cafeteria is broken.",
+    "category": "Facilities",
+    "priority": "Low",
+    "roles": [
+      "Administrator",
+      "Technician"
+    ]
+  },
+  {
+    "text": "The bus stops are not well-marked on campus.",
+    "category": "Infrastructure",
+    "priority": "Low",
+    "roles": [
+      "Administrator",
+      "Technician"
+    ]
+  },
+  {
+    "text": "My professor is not providing office hours for students.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Dean"
+    ]
+  },
+  {
+    "text": "There are no recycling bins in the academic buildings.",
+    "category": "Facilities",
+    "priority": "Low",
+    "roles": [
+      "Administrator",
+      "Cleaner"
+    ]
+  },
+  {
+    "text": "There is no accessible parking for students with disabilities.",
+    "category": "Infrastructure",
+    "priority": "High",
+    "roles": [
+      "Administrator",
+      "Security Officer"
+    ]
+  },
+  {
+    "text": "My online class platform is frequently down.",
+    "category": "Technical",
+    "priority": "High",
+    "roles": [
+      "IT Support"
+    ]
+  },
+  {
+    "text": "The dining hall has limited vegetarian options.",
+    "category": "Facilities",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "I was unable to register for a prerequisite course on time.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The student health services are difficult to reach.",
+    "category": "Administrative",
+    "priority": "Medium",
+    "roles": [
+      "Nurse",
+      "Receptionist"
+    ]
+  },
+  {
+    "text": "There is no clear procedure for appealing academic grades.",
+    "category": "Administrative",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Dean"
+    ]
+  },
+  {
+    "text": "The dormitory kitchen is poorly maintained.",
+    "category": "Facilities",
+    "priority": "Low",
+    "roles": [
+      "Cleaner"
+    ]
+  },
+  {
+    "text": "The university's website is difficult to navigate.",
+    "category": "Technical",
+    "priority": "Medium",
+    "roles": [
+      "IT Support"
+    ]
+  },
+  {
+    "text": "The class schedule does not allow for enough breaks between classes.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Dean"
+    ]
+  },
+  {
+    "text": "The Wi-Fi signal in the dormitories is weak.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "IT Support"
+    ]
+  },
+  {
+    "text": "There are not enough available study spaces in the library.",
+    "category": "Facilities",
+    "priority": "High",
+    "roles": [
+      "Librarian"
+    ]
+  },
+  {
+    "text": "My financial aid status has not been updated in weeks.",
+    "category": "Administrative",
+    "priority": "High",
+    "roles": [
+      "Administrator",
+      "Receptionist"
+    ]
+  },
+  {
+    "text": "The computer lab is always full, and I can't find a free computer.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Librarian",
+      "IT Support"
+    ]
+  },
+  {
+    "text": "The food delivery services on campus are unreliable.",
+    "category": "Facilities",
+    "priority": "Low",
+    "roles": [
+      "Administrator",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "I was unable to access my course materials due to a system error.",
+    "category": "Technical",
+    "priority": "High",
+    "roles": [
+      "IT Support"
+    ]
+  },
+  {
+    "text": "The dormitory does not provide enough storage space.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Technician"
+    ]
+  },
+  {
+    "text": "The university does not have enough options for part-time employment.",
+    "category": "Administrative",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Receptionist"
+    ]
+  },
+  {
+    "text": "The building elevators are frequently out of order.",
+    "category": "Infrastructure",
+    "priority": "High",
+    "roles": [
+      "Technician"
+    ]
+  },
+  {
+    "text": "I have difficulty finding relevant resources for my research project.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Librarian",
+      "Tutor"
+    ]
+  },
+  {
+    "text": "The campus gym has limited hours and is overcrowded.",
+    "category": "Facilities",
+    "priority": "Medium",
+    "roles": [
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "The campus shuttle service does not run on time.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Security Officer"
+    ]
+  },
+  {
+    "text": "The library does not have enough copies of required textbooks.",
+    "category": "Facilities",
+    "priority": "High",
+    "roles": [
+      "Librarian"
+    ]
+  },
+  {
+    "text": "The university's course registration system is outdated.",
+    "category": "Technical",
+    "priority": "Medium",
+    "roles": [
+      "IT Support"
+    ]
+  },
+  {
+    "text": "There are not enough quiet places for group study.",
+    "category": "Facilities",
+    "priority": "Medium",
+    "roles": [
+      "Librarian"
+    ]
+  },
+  {
+    "text": "The university's student app is not user-friendly.",
+    "category": "Technical",
+    "priority": "Medium",
+    "roles": [
+      "IT Support"
+    ]
+  },
+  {
+    "text": "There is no place to charge my laptop in the library.",
+    "category": "Infrastructure",
+    "priority": "Low",
+    "roles": [
+      "Librarian"
+    ]
+  },
+  {
+    "text": "I was not given adequate time to prepare for my final exam.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Dean"
+    ]
+  },
+  {
+    "text": "The course content is not relevant to real-world applications.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Dean"
+    ]
+  },
+  {
+    "text": "The campus is not well-lit at night, creating safety concerns.",
+    "category": "Infrastructure",
+    "priority": "High",
+    "roles": [
+      "Security Officer",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I can't find parking near the university during peak hours.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Security Officer"
+    ]
+  },
+  {
+    "text": "My lab session was canceled without prior notice.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Dean"
+    ]
+  },
+  {
+    "text": "The air quality in the lecture halls is poor.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Technician"
+    ]
+  },
+  {
+    "text": "There is no centralized system for submitting assignments.",
+    "category": "Technical",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "IT Support"
+    ]
+  },
+  {
+    "text": "The registration system is prone to crashing during peak hours.",
+    "category": "Technical",
+    "priority": "High",
+    "roles": [
+      "Administrator",
+      "IT Support"
+    ]
+  },
+  {
+    "text": "The campus security cameras are often not working.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Security Officer",
+      "Technician"
+    ]
+  },
+  {
+    "text": "There is a shortage of lab assistants for our class.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Lab Assistant",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The university is not providing enough mental health resources for students.",
+    "category": "Administrative",
+    "priority": "High",
+    "roles": [
+      "Counselor",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "There is no proper procedure for handling lost or stolen items.",
+    "category": "Administrative",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Receptionist"
+    ]
+  },
+  {
+    "text": "I was unable to access my grades on the online portal.",
+    "category": "Technical",
+    "priority": "High",
+    "roles": [
+      "Administrator",
+      "IT Support"
+    ]
+  },
+  {
+    "text": "The lecture halls are not equipped with adequate audiovisual equipment.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Technician"
+    ]
+  },
+  {
+    "text": "There are no vegetarian meal options in the vending machines.",
+    "category": "Facilities",
+    "priority": "Low",
+    "roles": [
+      "Administrator",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "The university's notification system does not send timely updates.",
+    "category": "Technical",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "IT Support"
+    ]
+  },
+  {
+    "text": "The university's online learning platform is not accessible on mobile devices.",
+    "category": "Technical",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "IT Support"
+    ]
+  },
+  {
+    "text": "The university does not provide adequate housing for international students.",
+    "category": "Administrative",
+    "priority": "High",
+    "roles": [
+      "Administrator",
+      "Dean"
+    ]
+  },
+  {
+    "text": "The parking garage is always full, making it difficult to park.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "I was given the wrong grade on my final exam, it should have been higher.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "I received an incorrect score for my midterm project.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "The grade I was given on my term paper doesn't reflect the effort I put in.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "My assignment was graded lower than I expected because the grading criteria were unclear.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "I was given an incorrect grade for my coursework. It was much lower than I deserved.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "The professor marked my assignment incorrectly, and now I have a lower grade.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "I believe I was given the wrong score on my quiz due to an error in grading.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "I was graded unfairly on my presentation because the professor didn't consider my full effort.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "My final grade was incorrectly calculated, and it doesn't match my scores from assignments and tests.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "I was given a failing grade on my paper even though I met all the requirements.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "The grade on my final project was mistakenly entered as lower than it should have been.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "I received a lower grade on my report than I should have based on the feedback.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "My grades were updated incorrectly, and it caused a significant drop in my overall score.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I was given the wrong score on my exam and need it to be reassessed.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "My grade on the essay doesn't reflect the effort and time I put into it.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "I think I was given a wrong grade for my homework assignment, as it doesn’t match my work.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "I received an incorrect grade for my thesis submission, and it's significantly lower than expected.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "The grade on my final exam doesn't align with my performance throughout the semester.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "I was given the wrong grade on my group project because my contributions weren't recognized.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "I was assigned the wrong score on my lab report due to a grading mistake.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "My professor mistakenly assigned me the wrong grade for my coursework.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "I received an unjustly low grade on my essay, and I want it reviewed.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "I was given an incorrect final score for my course, and it should be higher.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "I was given a wrong grade on my presentation, which doesn’t match the feedback I received.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "My score for the online exam was mistakenly reduced due to a system error.",
+    "category": "Technical",
+    "priority": "High",
+    "roles": [
+      "IT Support",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "I was charged for the wrong semester fees. I have already paid.",
+    "category": "Administrative",
+    "priority": "Low",
+    "roles": [
+      "Administrator",
+      "Receptionist"
+    ]
+  },
+  {
+    "text": "I believe there is an error with my financial aid application, and I need clarification.",
+    "category": "Administrative",
+    "priority": "Medium",
+    "roles": [
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The Wi-Fi in the dormitory is very unstable and often drops out during study sessions.",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "roles": [
+      "Administrator",
+      "Technician"
+    ]
+  },
+  {
+    "text": "The elevators in the dormitory building are out of order again, making it difficult to get to class.",
+    "category": "Infrastructure",
+    "priority": "High",
+    "roles": [
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The printer in the library is constantly out of order.",
+    "category": "Infrastructure",
+    "priority": "Low",
+    "roles": [
+      "Technician",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The academic event was poorly organized, and students weren't informed about the schedule changes.",
+    "category": "Behavioral",
+    "priority": "Medium",
+    "roles": [
+      "Event Coordinator",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The receptionist was unhelpful when I tried to inquire about the campus events schedule.",
+    "category": "Behavioral",
+    "priority": "Low",
+    "roles": [
+      "Receptionist",
+      "Event Coordinator"
+    ]
+  },
+  {
+    "text": "The event coordinator did not manage the workshop space properly, causing discomfort for the attendees.",
+    "category": "Behavioral",
+    "priority": "Medium",
+    "roles": [
+      "Event Coordinator",
+      "Technician"
+    ]
+  },
+  {
+    "text": "I had trouble registering for the seminar, and the receptionist couldn’t provide clear instructions.",
+    "category": "Behavioral",
+    "priority": "Medium",
+    "roles": [
+      "Receptionist",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The event coordinator failed to address accessibility issues during the seminar, leaving some attendees stranded.",
+    "category": "Behavioral",
+    "priority": "High",
+    "roles": [
+      "Event Coordinator",
+      "Security Officer"
+    ]
+  },
+  {
+    "text": "I was not informed about the changes in the event schedule, and the counselor didn't help with updates.",
+    "category": "Behavioral",
+    "priority": "Low",
+    "roles": [
+      "Event Coordinator",
+      "Counselor"
+    ]
+  },
+  {
+    "text": "The professor did not attend the event, and no one from the academic team was available to guide us.",
+    "category": "Behavioral",
+    "priority": "High",
+    "roles": [
+      "Event Coordinator",
+      "Dean"
+    ]
+  },
+  {
+    "text": "The event venue was difficult to find, and there were no clear instructions from the event coordinator.",
+    "category": "Behavioral",
+    "priority": "Medium",
+    "roles": [
+      "Event Coordinator",
+      "Receptionist"
+    ]
+  },
+  {
+    "text": "The teaching assistant did not address student queries during the class, leaving us confused about the material.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Teaching Assistant",
+      "Professor"
+    ]
+  },
+  {
+    "text": "The dean has not responded to my request for a class schedule update, and I’ve been waiting for a week.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Dean",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The teaching assistant was unable to provide the necessary support during our lab session, leaving me frustrated.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Teaching Assistant",
+      "Lab Assistant"
+    ]
+  },
+  {
+    "text": "The event coordinator failed to organize the academic conference properly, and the schedule was a mess.",
+    "category": "Behavioral",
+    "priority": "High",
+    "roles": [
+      "Event Coordinator",
+      "Dean"
+    ]
+  },
+  {
+    "text": "The counselor was unavailable during peak hours, and I couldn’t access the mental health resources I needed.",
+    "category": "Administrative",
+    "priority": "High",
+    "roles": [
+      "Counselor",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The event coordinator did not manage the logistics for the event, and it caused a lot of confusion among attendees.",
+    "category": "Behavioral",
+    "priority": "Medium",
+    "roles": [
+      "Event Coordinator",
+      "Technician"
+    ]
+  },
+  {
+    "text": "The event coordinator didn't properly communicate with the technical team, causing a delay in the start of the event.",
+    "category": "Behavioral",
+    "priority": "Medium",
+    "roles": [
+      "Event Coordinator",
+      "Technician"
+    ]
+  },
+  {
+    "text": "The receptionist gave me incorrect information about campus events, and I missed an important lecture.",
+    "category": "Behavioral",
+    "priority": "Low",
+    "roles": [
+      "Receptionist",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The counseling session was not helpful, and the counselor couldn't answer my academic questions.",
+    "category": "Administrative",
+    "priority": "Medium",
+    "roles": [
+      "Counselor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "The dean didn't address my concerns about the grading system and left me without any clear answers.",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Dean",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The teaching assistant couldn't provide enough clarification on the homework assignment, and I’m still confused.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Teaching Assistant",
+      "Tutor"
+    ]
+  },
+  {
+    "text": "I need help understanding the course material, but the teaching assistant hasn't been responsive to my queries.",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Teaching Assistant",
+      "Professor"
+    ]
+  },
+  {
+    "text": "The receptionist gave me incorrect directions to my class, making me late for an important exam.",
+    "category": "Behavioral",
+    "priority": "Medium",
+    "roles": [
+      "Receptionist",
+      "Administrator"
+    ]
+  },
+  {
+    "text": "The event coordinator was not prepared for the guest speaker's arrival, and there were no clear instructions given.",
+    "category": "Behavioral",
+    "priority": "Medium",
+    "roles": [
+      "Event Coordinator",
+      "Security Officer"
+    ]
+  },
+  {
+    "text": "The counselor was not able to help me with my academic concerns, which added to my stress before exams.",
+    "category": "Administrative",
+    "priority": "High",
+    "roles": [
+      "Counselor",
+      "Dean"
+    ]
+  },
+  {
+    "text": "The event coordinator didn’t properly check the technical equipment, and the event was disrupted multiple times.",
+    "category": "Behavioral",
+    "priority": "High",
+    "roles": [
+      "Event Coordinator",
+      "Technician"
+    ]
+  },
+  {
+    "text": "My best class was cancelled why?",
+    "category": "Academic",
+    "priority": "High",
+    "roles": [
+      "Professor",
+      "Teaching Assistant",
+      "Administrator",
+      "Dean"
+    ]
+  },
+  {
+    "text": "i am hungry",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "i am hungry",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  }
+]

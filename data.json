@@ -1,0 +1,422 @@
+[
+  {
+    "text": "The professor didn't show up for our class today.",
+    "category": "Academic",
+    "priority": "High"
+  },
+  {
+    "text": "The internet connection in the library is very slow.",
+    "category": "Infrastructure",
+    "priority": "Medium"
+  },
+  {
+    "text": "I have not received my exam results yet.",
+    "category": "Academic",
+    "priority": "High"
+  },
+  {
+    "text": "The cafeteria food quality has been poor recently.",
+    "category": "Facilities",
+    "priority": "Medium"
+  },
+  {
+    "text": "There is a problem with the air conditioning in the dorms.",
+    "category": "Infrastructure",
+    "priority": "Low"
+  },
+  {
+    "text": "My professor didn't grade my assignment properly.",
+    "category": "Academic",
+    "priority": "High"
+  },
+  {
+    "text": "The bathroom facilities are not being cleaned regularly.",
+    "category": "Facilities",
+    "priority": "Low"
+  },
+  {
+    "text": "The bus schedule is unreliable, and I missed my class.",
+    "category": "Infrastructure",
+    "priority": "Medium"
+  },
+  {
+    "text": "I was harassed by another student during a group project.",
+    "category": "Behavioral",
+    "priority": "High"
+  },
+  {
+    "text": "My dorm room doesn't have proper lighting.",
+    "category": "Infrastructure",
+    "priority": "Low"
+  },
+  {
+    "text": "I am being unfairly graded on my project.",
+    "category": "Academic",
+    "priority": "High"
+  },
+  {
+    "text": "The parking lot is too far from the campus building.",
+    "category": "Infrastructure",
+    "priority": "Medium"
+  },
+  {
+    "text": "There is no hot water in the showers.",
+    "category": "Infrastructure",
+    "priority": "Low"
+  },
+  {
+    "text": "The classroom seats are uncomfortable and need replacement.",
+    "category": "Infrastructure",
+    "priority": "Medium"
+  },
+  {
+    "text": "The university website keeps crashing when I try to register for courses.",
+    "category": "Technical",
+    "priority": "High"
+  },
+  {
+    "text": "My assigned TA is not answering emails or questions.",
+    "category": "Academic",
+    "priority": "Medium"
+  },
+  {
+    "text": "I feel unsafe walking alone on campus at night.",
+    "category": "Behavioral",
+    "priority": "High"
+  },
+  {
+    "text": "The Wi-Fi in the lecture halls is intermittent and unreliable.",
+    "category": "Infrastructure",
+    "priority": "Medium"
+  },
+  {
+    "text": "There is not enough space in the library to study during exams.",
+    "category": "Facilities",
+    "priority": "Medium"
+  },
+  {
+    "text": "My course syllabus was not available before the start of classes.",
+    "category": "Academic",
+    "priority": "Low"
+  },
+  {
+    "text": "The classroom is too noisy, making it hard to concentrate.",
+    "category": "Infrastructure",
+    "priority": "Medium"
+  },
+  {
+    "text": "The temperature in the classrooms is always too hot or too cold.",
+    "category": "Infrastructure",
+    "priority": "Medium"
+  },
+  {
+    "text": "My financial aid application hasn't been processed yet.",
+    "category": "Administrative",
+    "priority": "High"
+  },
+  {
+    "text": "I was charged incorrectly for my dormitory fees.",
+    "category": "Administrative",
+    "priority": "High"
+  },
+  {
+    "text": "The computer lab doesn't have enough working computers for students.",
+    "category": "Infrastructure",
+    "priority": "Medium"
+  },
+  {
+    "text": "I was not informed about the changes to the exam schedule.",
+    "category": "Academic",
+    "priority": "High"
+  },
+  {
+    "text": "My advisor is not responding to my emails about course selection.",
+    "category": "Academic",
+    "priority": "Medium"
+  },
+  {
+    "text": "The lights in the library are too dim to read properly.",
+    "category": "Infrastructure",
+    "priority": "Low"
+  },
+  {
+    "text": "There is a lack of recycling bins on campus.",
+    "category": "Facilities",
+    "priority": "Low"
+  },
+  {
+    "text": "The elevators in the building are always out of service.",
+    "category": "Infrastructure",
+    "priority": "Medium"
+  },
+  {
+    "text": "I have been falsely accused of cheating in my exam.",
+    "category": "Behavioral",
+    "priority": "High"
+  },
+  {
+    "text": "I had trouble accessing my course materials on the online portal.",
+    "category": "Technical",
+    "priority": "Medium"
+  },
+  {
+    "text": "The campus security guards are not responsive to emergency calls.",
+    "category": "Behavioral",
+    "priority": "High"
+  },
+  {
+    "text": "There are no healthy food options in the campus cafeteria.",
+    "category": "Facilities",
+    "priority": "Medium"
+  },
+  {
+    "text": "I was not informed about the university's policy changes regarding scholarships.",
+    "category": "Administrative",
+    "priority": "Low"
+  },
+  {
+    "text": "The temperature in the dorms is too high and uncomfortable.",
+    "category": "Infrastructure",
+    "priority": "Low"
+  },
+  {
+    "text": "There are not enough group study rooms available in the library.",
+    "category": "Facilities",
+    "priority": "Medium"
+  },
+  {
+    "text": "I had difficulty with the online exam system during my test.",
+    "category": "Technical",
+    "priority": "High"
+  },
+  {
+    "text": "My classroom is overcrowded, and there are not enough seats.",
+    "category": "Infrastructure",
+    "priority": "Medium"
+  },
+  {
+    "text": "The lab equipment is outdated and not functioning properly.",
+    "category": "Infrastructure",
+    "priority": "Medium"
+  },
+  {
+    "text": "I have received an unfair warning for being late to class.",
+    "category": "Behavioral",
+    "priority": "Low"
+  },
+  {
+    "text": "There is no proper support for students with disabilities.",
+    "category": "Facilities",
+    "priority": "High"
+  },
+  {
+    "text": "The classrooms are not adequately ventilated, making it hard to focus.",
+    "category": "Infrastructure",
+    "priority": "Medium"
+  },
+  {
+    "text": "I feel discriminated against in my class because of my race.",
+    "category": "Behavioral",
+    "priority": "High"
+  },
+  {
+    "text": "My professor did not provide proper feedback on my research paper.",
+    "category": "Academic",
+    "priority": "Medium"
+  },
+  {
+    "text": "There are no charging stations for laptops in the lecture halls.",
+    "category": "Infrastructure",
+    "priority": "Low"
+  },
+  {
+    "text": "My course schedule was changed without my consent.",
+    "category": "Academic",
+    "priority": "Medium"
+  },
+  {
+    "text": "There is no clear procedure for resolving academic disputes.",
+    "category": "Administrative",
+    "priority": "Medium"
+  },
+  {
+    "text": "The university does not provide adequate career counseling services.",
+    "category": "Administrative",
+    "priority": "Medium"
+  },
+  {
+    "text": "The library's resources are outdated and need to be updated.",
+    "category": "Facilities",
+    "priority": "Medium"
+  },
+  {
+    "text": "The bus service is late every morning, and I miss my first class.",
+    "category": "Infrastructure",
+    "priority": "High"
+  },
+  {
+    "text": "The computer lab is too noisy for studying.",
+    "category": "Infrastructure",
+    "priority": "Low"
+  },
+  {
+    "text": "The staff in the library are not helpful when I need assistance.",
+    "category": "Behavioral",
+    "priority": "Low"
+  },
+  {
+    "text": "The university's email system is often down, and I cannot receive important notifications.",
+    "category": "Technical",
+    "priority": "High"
+  },
+  {
+    "text": "The heating system in the dorms is broken, and it's freezing inside.",
+    "category": "Infrastructure",
+    "priority": "High"
+  },
+  {
+    "text": "The elevators in the dormitory building are often out of service.",
+    "category": "Infrastructure",
+    "priority": "Medium"
+  },
+  {
+    "text": "There is not enough diversity in the curriculum for my course.",
+    "category": "Academic",
+    "priority": "Medium"
+  },
+  {
+    "text": "I was not able to register for the courses I wanted due to system errors.",
+    "category": "Technical",
+    "priority": "High"
+  },
+  {
+    "text": "The online exam system crashed in the middle of my test.",
+    "category": "Technical",
+    "priority": "High"
+  },
+  {
+    "text": "My professor is not providing enough support for my thesis work.",
+    "category": "Academic",
+    "priority": "Medium"
+  },
+  {
+    "text": "There is no proper guidance for student projects and research work.",
+    "category": "Academic",
+    "priority": "Medium"
+  },
+  {
+    "text": "The parking fees on campus are too high and unreasonable.",
+    "category": "Administrative",
+    "priority": "Low"
+  },
+  {
+    "text": "The library is always closed during weekends, making it difficult to study.",
+    "category": "Facilities",
+    "priority": "Medium"
+  },
+  {
+    "text": "The university does not provide enough scholarships for international students.",
+    "category": "Administrative",
+    "priority": "Medium"
+  },
+  {
+    "text": "There are not enough vending machines on campus.",
+    "category": "Facilities",
+    "priority": "Low"
+  },
+  {
+    "text": "The university doesn't provide sufficient support for student clubs.",
+    "category": "Administrative",
+    "priority": "Medium"
+  },
+  {
+    "text": "The dormitory has mold in the walls, and it's affecting my health.",
+    "category": "Infrastructure",
+    "priority": "High"
+  },
+  {
+    "text": "I received incorrect information about the graduation requirements.",
+    "category": "Academic",
+    "priority": "High"
+  },
+  {
+    "text": "The campus security guard was rude when I asked for assistance.",
+    "category": "Behavioral",
+    "priority": "Low"
+  },
+  {
+    "text": "The elevator in my building is out of order, and I live on the fifth floor.",
+    "category": "Infrastructure",
+    "priority": "High"
+  },
+  {
+    "text": "There is not enough space for group discussions in the library.",
+    "category": "Facilities",
+    "priority": "Medium"
+  },
+  {
+    "text": "I couldn't access the online library resources from home.",
+    "category": "Technical",
+    "priority": "Medium"
+  },
+  {
+    "text": "I was denied access to the university's research journals without explanation.",
+    "category": "Academic",
+    "priority": "High"
+  },
+  {
+    "text": "The computer lab is too crowded, and there are not enough seats.",
+    "category": "Infrastructure",
+    "priority": "Medium"
+  },
+  {
+    "text": "I am having difficulty with the online payment portal for tuition fees.",
+    "category": "Technical",
+    "priority": "High"
+  },
+  {
+    "text": "The dormitory has a bad odor and needs to be cleaned.",
+    "category": "Facilities",
+    "priority": "Medium"
+  },
+  {
+    "text": "I was given incorrect advice regarding my course selection.",
+    "category": "Academic",
+    "priority": "Medium"
+  },
+  {
+    "text": "The campus is not accessible for students with mobility challenges.",
+    "category": "Infrastructure",
+    "priority": "High"
+  },
+  {
+    "text": "There are not enough international student resources available on campus.",
+    "category": "Administrative",
+    "priority": "Low"
+  },
+  {
+    "text": "I did not receive my certificate on time after completing my course.",
+    "category": "Administrative",
+    "priority": "Medium"
+  },
+  {
+    "text": "There is a lack of quiet study areas in the library.",
+    "category": "Facilities",
+    "priority": "Medium"
+  },
+  {
+    "text": "I missed a course deadline due to confusion regarding the assignment submission.",
+    "category": "Academic",
+    "priority": "Medium"
+  },
+  {
+    "text": "The university's online system for booking exam rooms is difficult to use.",
+    "category": "Technical",
+    "priority": "Low"
+  },
+  {
+    "text": "The lecture rooms are not properly cleaned and are overcrowded.",
+    "category": "Low",
+    "priority": "Low"
+  }
+]
