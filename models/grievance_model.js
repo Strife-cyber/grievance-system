@@ -9,7 +9,7 @@ class Grievance extends Model {
                 primaryKey: true,
                 autoIncrement: true
             },
-            student: {
+            studentId: {
                 type: DataTypes.INTEGER,
                 allowNull: false,
                 references: {

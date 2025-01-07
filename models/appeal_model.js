@@ -10,7 +10,7 @@ class Appeal extends Model {
                 primaryKey: true,
                 autoIncrement: true,
             },
-            student: {
+            studentId: {
                 type: DataTypes.INTEGER,
                 allowNull: false,
                 references: {
@@ -18,7 +18,7 @@ class Appeal extends Model {
                     key: "id"
                 }
             },
-            grievance: {
+            grievanceId: {
                 type: DataTypes.INTEGER,
                 allowNull: false,
                 references: {

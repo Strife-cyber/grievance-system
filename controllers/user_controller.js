@@ -1,5 +1,9 @@
 import bcrypt from 'bcrypt';
+import dotenv from "dotenv";
+import jwt from 'jsonwebtoken';
 import models from '../models/index.js';
+
+dotenv.config();
 
 // Register a new user
 export const register = async (req, res) => {
@@ -10,12 +14,16 @@ export const register = async (req, res) => {
             return res.status(400).json({ message: 'All fields are required.' });
         }
 
+        // Check if email already exists
         const existingUser = await models.User.findOne({ where: { email } });
         if (existingUser) {
             return res.status(409).json({ message: 'Email already in use.' });
         }
 
-        const hashedPassword = await bcrypt.hash(password, 10);
+        // Hash the password securely with bcrypt
+        const hashedPassword = await bcrypt.hash(password, parseInt(process.env.BCRYPT_SALT_ROUNDS));
+
+        // Create new user in the database
         const user = await models.User.create({ firstName, lastName, email, password: hashedPassword });
 
         res.status(201).json({ message: 'User registered successfully.', user });
@@ -55,7 +63,8 @@ export const getUserById = async (req, res) => {
 
 // Update a user
 export const updateUser = async (req, res) => {
-    const { id } = req.params;
+    const { userId } = req.user;
+    const id = userId;
     const { firstName, lastName, email, password } = req.body;
 
     try {
@@ -69,7 +78,7 @@ export const updateUser = async (req, res) => {
         if (lastName) updateData.lastName = lastName;
         if (email) updateData.email = email;
         if (password) {
-            const hashedPassword = await bcrypt.hash(password, 10);
+            const hashedPassword = await bcrypt.hash(password, parseInt(process.env.BCRYPT_SALT_ROUNDS));
             updateData.password = hashedPassword;
         }
 
@@ -83,7 +92,8 @@ export const updateUser = async (req, res) => {
 
 // Delete a user
 export const deleteUser = async (req, res) => {
-    const { id } = req.params;
+    const { userId } = req.user;
+    const id = userId;
 
     try {
         const deleted = await models.User.destroy({ where: { id } });
@@ -107,28 +117,30 @@ export const login = async (req, res) => {
             return res.status(400).json({ message: 'Email and password are required.' });
         }
 
+        // Check if user exists
         const user = await models.User.findOne({ where: { email } });
         if (!user || !(await bcrypt.compare(password, user.password))) {
             return res.status(401).json({ message: 'Invalid email or password.' });
         }
 
-        res.status(200).json({ message: 'Login successful.', userId: user.id });
+        // Generate a JWT token
+        const token = jwt.sign(
+            { userId: user.id },
+            process.env.JWT_SECRET, // Use the secret from .env
+            { expiresIn: process.env.JWT_EXPIRES_IN || '1d' } // Use expiry from .env
+        );
+
+        res.status(200).json({ message: 'Login successful.', token });
     } catch (error) {
         console.error(`[LOGIN ERROR]: ${error.message}`, error);
         res.status(500).json({ message: 'Internal server error.' });
     }
 };
 
-// Logout a user
+// Logout a user (clear token on client side)
 export const logout = async (req, res) => {
-    const { id } = req.params;
-
     try {
-        const user = await models.User.findByPk(id);
-        if (!user) {
-            return res.status(404).json({ message: 'User not found.' });
-        }
-
+        // No backend session to clear, just inform the client to discard the token
         res.status(200).json({ message: 'Logout successful.' });
     } catch (error) {
         console.error(`[LOGOUT ERROR]: ${error.message}`, error);
@@ -138,7 +150,8 @@ export const logout = async (req, res) => {
 
 // Get user profile
 export const profile = async (req, res) => {
-    const { id } = req.params;
+    const { userId } = req.user;
+    const id = userId;
 
     try {
         const user = await models.User.findByPk(id);
@@ -152,3 +165,29 @@ export const profile = async (req, res) => {
         res.status(500).json({ message: 'Internal server error.' });
     }
 };
+
+// Get the user's role (student or staff) based on the table they belong to
+export const getUserRole = async (req, res) => {
+    const { userId } = req.user;
+
+    try {
+        // Check if the user exists in the students table
+        const student = await models.Student.findOne({ where: { id: userId } });
+        if (student) {
+            return res.status(200).json({ role: 'student' });
+        }
+
+        // If not found in students, check if the user exists in the staff table
+        const staff = await models.Staff.findOne({ where: { id: userId } });
+        if (staff) {
+            return res.status(200).json({ role: 'staff' });
+        }
+
+        // If user is not found in either table, return a message indicating no role
+        return res.status(200).json({ role: 'none' }); // Indicating that the user has no role
+    } catch (error) {
+        console.error(`[GET USER ROLE ERROR]: ${error.message}`, error);
+        res.status(500).json({ message: 'Internal server error.' });
+    }
+};
+

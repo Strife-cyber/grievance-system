@@ -10,7 +10,7 @@ class Response extends Model {
                 primaryKey: true,
                 autoIncrement: true
             },
-            grievance: {
+            grievanceId: {
                 type: DataTypes.INTEGER,
                 allowNull: false,
                 references: {
@@ -18,7 +18,7 @@ class Response extends Model {
                     key: "id"
                 }
             },
-            staff: {
+            staffId: {
                 type: DataTypes.INTEGER,
                 allowNull: false,
                 references: {

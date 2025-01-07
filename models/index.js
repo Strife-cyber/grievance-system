@@ -11,10 +11,10 @@ import Grievance from './grievance_model.js';
 const models = {
     User: User.init(sequelize),
     Staff: Staff.init(sequelize),
-    Appeal: Appeal.init(sequelize),
     Student: Student.init(sequelize),
-    Response: Response.init(sequelize),
-    Grievance: Grievance.init(sequelize)
+    Grievance: Grievance.init(sequelize),
+    Appeal: Appeal.init(sequelize),
+    Response: Response.init(sequelize)
 };
 
 // Defining the associations
@@ -23,21 +23,21 @@ models.User.hasMany(models.Staff, { foreignKey: "id" });
 models.User.hasMany(models.Student, { foreignKey: "id" });
 
 models.Staff.belongsTo(models.User, { foreignKey: "id" });
-models.Staff.hasMany(models.Response, { foreignKey: "staff" });
+models.Staff.hasMany(models.Response, { foreignKey: "staffId" });
 
 models.Student.belongsTo(models.User, { foreignKey: "id" });
-models.Student.hasMany(models.Appeal, { foreignKey: "student" });
-models.Student.hasMany(models.Grievance, { foreignKey: "student" });
+models.Student.hasMany(models.Appeal, { foreignKey: "studentId" });
+models.Student.hasMany(models.Grievance, { foreignKey: "studentId" });
 
-models.Appeal.belongsTo(models.Student, { foreignKey: "student" });
-models.Appeal.belongsTo(models.Grievance, { foreignKey: "grievance" });
+models.Appeal.belongsTo(models.Student, { foreignKey: "studentId" });
+models.Appeal.belongsTo(models.Grievance, { foreignKey: "grievanceId" });
 
-models.Response.belongsTo(models.Staff, { foreignKey: "staff" });
-models.Response.belongsTo(models.Grievance, { foreignKey: "grievance" });
+models.Response.belongsTo(models.Staff, { foreignKey: "staffId" });
+models.Response.belongsTo(models.Grievance, { foreignKey: "grievanceId" });
 
-models.Grievance.belongsTo(models.Student, { foreignKey: "student" });
-models.Grievance.hasMany(models.Appeal, { foreignKey: "grievance" });
-models.Grievance.hasMany(models.Response, { foreignKey: "grievance" });
+models.Grievance.belongsTo(models.Student, { foreignKey: "studentId" });
+models.Grievance.hasMany(models.Appeal, { foreignKey: "grievanceId" });
+models.Grievance.hasMany(models.Response, { foreignKey: "grievanceId" });
 
 // Set up additional associations if defined in the models
 Object.keys(models).forEach((modelName) => {
@@ -52,5 +52,4 @@ sequelize
     .then(() => console.log('Database && tables created!'))
     .catch((error) => console.error('Database sync failed: ', error));
 
-export { sequelize };
 export default models;
