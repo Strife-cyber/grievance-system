@@ -1828,5 +1828,34 @@
       "Professor",
       "Nurse"
     ]
+  },
+  {
+    "text": "A student broke his leg",
+    "category": "Medical",
+    "priority": "High",
+    "roles": [
+      "Administrator",
+      "Counselor",
+      "Event Coordinator",
+      "Nurse"
+    ]
+  },
+  {
+    "text": "I am hungry",
+    "category": "Academic",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
+  },
+  {
+    "text": "Fuck you my classmate is bitching and he is racist.",
+    "category": "Behavioral",
+    "priority": "Medium",
+    "roles": [
+      "Professor",
+      "Teaching Assistant"
+    ]
   }
 ]
